@@ -1,0 +1,108 @@
+
+/* Spotify web page */
+
+*{
+    margin: 0;
+}
+
+.spotify-page{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* This is list of menu */
+
+.menu{
+    background-color: black;
+}
+
+.menu .icon{
+    font-size: 35px;
+    color: white;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.icon img{
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.menu a{
+    color: white;
+}
+.menu li{
+    list-style: none;
+    margin-top: 20px;
+
+}
+
+.menu li img{
+    width: 25px;
+    height: 25px;
+}
+
+/* Main page */
+.main{
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+    
+}
+
+.main .header{
+    
+    background-color: rgb(21, 20, 20);
+}
+
+.main .albums{
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+    background-color: hsl(0, 2%, 12%);
+    
+}
+
+.main .albums li {
+    display: inline;
+    list-style: none;
+    margin-left: 20px;
+    
+}
+
+.main .albums ul {
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+.main .albums a{
+    color: rgb(189, 183, 183);
+}
+
+.albums h1{
+    color: white;
+}
+
+.albums img{
+    margin-left: 15px;
+}
+
+.recently-played{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.create{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.mood{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
